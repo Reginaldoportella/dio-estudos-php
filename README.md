@@ -56,7 +56,7 @@ dio-estudos-php/
 
 ```bash
 # Clone o repositório
-git clone https://github.com/seu-usuario/dio-estudos-php.git
+git clone https://github.com/Reginaldoportella/dio-estudos-php.git
 
 # Entre na pasta
 cd dio-estudos-php
