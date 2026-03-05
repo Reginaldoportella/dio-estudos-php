@@ -18,6 +18,14 @@ dio-estudos-php/
 │   ├── 05-hierarquia-excecoes.php
 │   └── 06-tratamento-excecoes.php
 │
+├── namespaces/                  # Namespaces e Autoload
+│   ├── 01-introducao-namespaces.php
+│   ├── 02-declarando-namespaces.php
+│   ├── 03-use-e-alias.php
+│   ├── 04-autoload-manual.php
+│   ├── 05-composer-autoload.php
+│   └── 06-exemplo-pratico.php
+│
 ├── poo/                         # Programação Orientada a Objetos
 │   ├── 01-heranca-conceitos.php
 │   ├── 02-sobrescrita-metodos.php
@@ -39,7 +47,15 @@ dio-estudos-php/
 - Hierarquia de exceções
 - Tratamento com try/catch/finally
 
-### 🔵 POO - Pilares: Herança e Polimorfismo
+### � Namespaces e Autoload
+- **Introdução**: conceito e problema de conflitos
+- **Declaração**: sintaxe e regras
+- **Use e Alias**: importação e resolução de conflitos
+- **Autoload Manual**: spl_autoload_register, PSR-4
+- **Composer**: gerenciador de dependências e autoload
+- **Exemplo Prático**: Mini sistema de e-commerce
+
+### �🔵 POO - Pilares: Herança e Polimorfismo
 - **Herança**: `extends`, `parent::`, modificadores de acesso
 - **Sobrescrita de métodos**: override, `final`
 - **Polimorfismo**: múltiplas formas, type hints
@@ -82,12 +98,19 @@ php excecoes/06-tratamento-excecoes.php
 | `parent::` | Acesso à classe pai |
 | `instanceof` | Verificação de tipo |
 | `try/catch` | Tratamento de exceções |
+| `namespace` | Organização de código em espaços de nomes |
+| `use` | Importação de classes/funções/constantes |
+| `as` | Alias para resolver conflitos de nomes |
+| `spl_autoload_register` | Carregamento automático de classes |
+| `Composer` | Gerenciador de dependências e autoload |
 
 ## 📈 Progresso do Curso
 
 - [x] Apresentação do Curso e Conceitos
 - [x] Pilares: Abstração e Encapsulamento
 - [x] Pilares: Herança e Polimorfismo
+- [x] Tratamento de Exceções
+- [ ] Namespaces e Autoload ⬅️ **Estudando agora**
 - [ ] Encerramento
 
 ## 🤝 Contribuições
